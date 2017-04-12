@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="score_button_margin_left">24dp</dimen>
+    <dimen name="score_button_margin_right">24dp</dimen>
+    <dimen name="score_button_margin_bottom">8dp</dimen>
+    <dimen name="reset_button_margin_bottom">32dp</dimen>
+    <dimen name="team_header_padding">16dp</dimen>
+    <dimen name="team_header_text_size">14sp</dimen>
+    <dimen name="score_number_padding_bottom">24dp</dimen>
+    <dimen name="score_number_text_size">56sp</dimen>
+    <dimen name="image_basketball_padding_top">8dp</dimen>
+</resources>

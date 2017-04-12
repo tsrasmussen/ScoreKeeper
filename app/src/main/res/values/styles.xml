@@ -1,0 +1,39 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#FF9800</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#FF9800</item>
+    </style>
+
+    <style name="scoreButtons">
+        <item name="android:layout_marginBottom">@dimen/score_button_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/score_button_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/score_button_margin_right</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+    </style>
+
+    <style name="resetButton">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/reset_button_margin_bottom</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+    </style>
+
+    <style name="teamHeader">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/team_header_padding</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/team_header_text_size</item>
+    </style>
+
+    <style name="scoreNumber">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/score_number_padding_bottom</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/score_number_text_size</item>
+    </style>
+</resources>
